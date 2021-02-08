@@ -1,5 +1,5 @@
 """
-WSGI config for prj project.
+WSGI config for test_prj project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

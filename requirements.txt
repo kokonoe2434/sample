@@ -1,1 +1,4 @@
 django
+wheel
+qrcode # 2段階認証
+onetimepass # 2段階認証
