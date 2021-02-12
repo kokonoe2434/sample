@@ -121,15 +121,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 # ========== 追加 ==========
 STATIC_ROOT = BASE_DIR / 'static'
-# DEFAULT_FROM_EMAIL = 'hogehoge@example.com'
-# EMAIL_HOST = 'localhost'
-# EMAIL_PORT = 25
-# デバッグ用
-# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 # メールサーバーへの接続設定
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'nine.stack.777@gmail.com'
-EMAIL_HOST_PASSWORD = 'kokonoe#999#g7'
+EMAIL_HOST_USER = '[mail address]'
+EMAIL_HOST_PASSWORD = '[password]'
 EMAIL_USE_TLS = True
