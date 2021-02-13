@@ -1,2 +1,7 @@
+*.py[cod]
+__pycache__
+tags
+.env
+*.sqlite3
+*.swp
 myvenv/
-__pycache__/
